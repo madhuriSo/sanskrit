@@ -14,7 +14,8 @@ export class SandhiComponent implements OnInit {
   vyanjansandhi="";
 
   sandhiTypes : SandhiTypes={
-    swarsandhi:"स्वरसंधी  Details",
+    swarsandhi:"स्वरसंधींचे एकूण आठ प्रकार आहेत "
+    ,
     visargasandhi: " VisargaSandhi Details",
     vyanjansandhi:  "VyanjanSandhi Details"
   };

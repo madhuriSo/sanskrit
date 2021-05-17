@@ -10,7 +10,7 @@ import{UserModel} from './userModel';
 })
 export class UserComponent implements OnInit {
 
-  users!: UserModel[];
+  users: UserModel[] = [];
   constructor(private UserService:UserService) { }
 
   ngOnInit(): void {
@@ -18,6 +18,7 @@ export class UserComponent implements OnInit {
 
   getUsers():void{
     this.UserService.getUsers().subscribe(users=>this.users);
+    console.log(" Log:"+this.users);
   }
 
 }

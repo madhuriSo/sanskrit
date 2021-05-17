@@ -1,0 +1,70 @@
+
+body{
+    background-image: url("//src/images/krishna.png");
+
+    background-size: 500px;
+}
+
+div.x{
+    color:blue ;
+   
+    text-align: center;
+
+  
+    transform: rotate(20);
+    
+}
+
+div.u{
+    padding: 10 px;
+    display: inline;
+    border: seagreen;
+    border: greenyellow;
+    background-color: coral;
+    border-style:ridge;
+    transition-property: margin;
+    transition-duration: 5s;
+    font-size: 40px;
+    font-style:initial;
+    color: darkblue;
+    
+}
+div.u:hover{
+    background-color: greenyellow;
+}
+
+
+h1.heading{
+    background-image: url('../../../assets/images/krishna.png');
+    font-size: 100px;
+    margin:2px;
+    border-color: pink;
+    border-style: outset;
+    color: black ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(117, 219, 92);
+    background-size: 400px;
+}
+img.lpalm{
+    position: relative ;
+    animation-name: namaskar;
+    animation-duration: 10s;
+    
+    
+}
+@keyframes namaskar{
+    0%{left:0px;top:0px}
+    100%{left: 400px;top:0px;}
+}
+
+img.rpalm{
+    position: relative;
+    animation-name: namaskarR;
+    animation-duration: 10s;
+    
+}
+@keyframes namaskarR{
+    0%{left:800px;top:0px}
+    100%{left: 402px;top:0px;}
+}
