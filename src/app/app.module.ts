@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { SandhiComponent } from './components/sandhi/sandhi.component';
 import {FormsModule} from '@angular/forms';
 import { UserComponent } from './components/user/user.component';
+import { ChapterDetailComponent } from './components/chapter-detail/chapter-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SandhiComponent,
-    UserComponent
+    UserComponent,
+    ChapterDetailComponent
   ],
   imports: [
     BrowserModule,
