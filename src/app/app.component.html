@@ -1,9 +1,17 @@
 <body>
     <header>
-        <h1 class="heading">    <label>  संस्कृतअध्ययन</label>  </h1>
+        <h1 class="heading">    संस्कृतअध्ययन  </h1>
     </header>
-<router-outlet></router-outlet>
-<app-sandhi></app-sandhi>
-<app-user></app-user>
-<footer class='note'>  धन्यवाद! </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+    <div >
+        <div class="u "> <a routerLink="/">मुख्य विभाग</a></div>
+        <div class="u "> <a routerLink="/">भाषांतर</a> </div>
+        <div class="u"><a routerLink="/user">सभासद</a>  </div>
+        <div class="u"> <a routerLink="/">समानार्थी शब्द </a></div>
+        <div class="u "> <a routerLink="/">विरूद्धार्थी शब्द </a> </div>
+        <div class="u "><a routerLink="/quiz">प्रश्नोत्तरी </a> </div>
+        </div> 
+    <router-outlet></router-outlet> 
+
+    <footer class='note'>  धन्यवाद! </footer>
 </body>

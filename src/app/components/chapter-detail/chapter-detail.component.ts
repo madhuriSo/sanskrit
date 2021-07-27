@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChapterDetailComponent implements OnInit {
 
+   flag=false;
+  colorTest="blue";
+  colors=["blue","red","green","pink"];
   constructor() { }
 
   ngOnInit(): void {

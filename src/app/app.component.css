@@ -6,9 +6,11 @@ body{
 h1.heading{
     background-image: url('../assets/images/krishna.png');
     font-size: 100px;
-    margin:2px;
-    border-color: pink;
-    border-style: outset;
+    padding:5mm;
+    border-color: rgb(56, 173, 24);
+    border-style:ridge;
+    text-decoration-style:wavy;
+
     color: black ;
     background-repeat: no-repeat;
     background-position: right;
@@ -16,9 +18,40 @@ h1.heading{
     background-size: 400px;
 }
 
+
+    
+
 footer.note{
     background-color:  rgb(117, 219, 92);
     color: black;
     font-size: 30px;
     text-align: center;
+}
+div.u{
+    padding:1mm;
+    display: inline;
+    border: rgb(56, 173, 24);
+    border-width: 2mm;
+    border-radius: 1mm;
+    background-color:rgb(117, 219, 92) ;
+    border-style:ridge;
+    transition-property: margin;
+    transition-duration: 5s;
+    font-size: 40px;
+    font-style:initial;
+    color: black;
+    
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: wheat;
+    text-decoration-line:none;
+}
+div.u:hover{
+    background-color: rgb(8, 82, 19);
+    color: black;
 }

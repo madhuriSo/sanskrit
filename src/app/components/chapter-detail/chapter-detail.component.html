@@ -1,1 +1,20 @@
-<p>chapter-detail works!</p>
+<p *ngIf="flag;else elseBlock">
+    chapter-detail works !
+</p>
+
+<ng-template #elseBlock>
+    <p>
+        The elseBock works !
+    </p>
+</ng-template>
+
+<div [ngSwitch] ="colorTest">
+    <p *ngSwitchCase="'blue'">The blue one</p>
+    <p *ngSwitchCase="'red'">The red one</p>
+    <p *ngSwitchCase="'green'">The green one</p>
+    <p></p>
+</div>
+
+<div *ngFor="let color of colors">
+<p>{{color}}</p>
+</div>

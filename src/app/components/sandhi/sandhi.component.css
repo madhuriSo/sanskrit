@@ -34,18 +34,7 @@ div.u:hover{
 }
 
 
-h1.heading{
-    background-image: url('../../../assets/images/krishna.png');
-    font-size: 100px;
-    margin:2px;
-    border-color: pink;
-    border-style: outset;
-    color: black ;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: rgb(117, 219, 92);
-    background-size: 400px;
-}
+
 img.lpalm{
     position: relative ;
     animation-name: namaskar;
